@@ -146,3 +146,7 @@ function getServerCertificateDetailTable() {
 		info : false
 	});
 }
+
+$("#securityCheckBtn").click(function(){
+	window.location.href="/securityChecklist";
+});

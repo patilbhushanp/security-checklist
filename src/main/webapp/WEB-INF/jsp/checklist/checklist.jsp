@@ -4,7 +4,12 @@
 			<div id="loadingDiv" class="loader"></div>
 			<div class="row">
 				<div class="col-lg-12 ibox-content" id="ibox-content">	
-					<div class="col-lg-12 pull-left"><h3 class="title">Server Details &nbsp<span id="serverURL"></span></h3></div>
+					<div class="col-lg-8 pull-left"><h3 class="title">Server Details &nbsp<span id="serverURL"></span></h3></div>
+					<div class="col-lg-4 pull-right">
+						<button class="btn btn-primary" type="button">Additional Information</button>&nbsp;&nbsp;
+						<button id="securityCheckBtn" class="btn btn-primary" type="button">Security Checks</button>&nbsp;&nbsp;
+						<button class="btn btn-success" type="button">PDF Report</button>&nbsp;&nbsp;
+					</div>
 				</div>
 			</div>
 			<div class="row">

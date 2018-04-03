@@ -15,4 +15,8 @@ public class SecurityChecklistController extends BaseHtmlController {
 		return "checklist/checklist";
 	}
 
+	@RequestMapping("/securityChecklist")
+	public String showSecurityChecks(Map<String, Object> model) {
+		return "checklist/securityChecklist";
+	}
 }
