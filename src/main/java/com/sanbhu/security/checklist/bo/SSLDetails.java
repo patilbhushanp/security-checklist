@@ -1,12 +1,12 @@
 package com.sanbhu.security.checklist.bo;
 
 public class SSLDetails {
-	private String commonName;
-	private String sans;
-	private String organizations;
-	private String location;
-	private String validity;
-	private String signatureAlgorithm;
+	private String commonName = "Not Available";
+	private String sans = "";
+	private String organizations = "";
+	private String location = "";
+	private String validity = "Not Applicable";
+	private String signatureAlgorithm = "Not Available";
 
 	public String getCommonName() {
 		return commonName;

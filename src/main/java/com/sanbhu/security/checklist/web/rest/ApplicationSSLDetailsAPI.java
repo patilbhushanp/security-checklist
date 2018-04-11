@@ -33,8 +33,8 @@ public class ApplicationSSLDetailsAPI extends BaseRestController {
 		} catch (Exception exception) {
 			exception.printStackTrace();
 		}
+		request.getSession().setAttribute("websiteURL", websiteURL);
 		request.getSession().setAttribute("ApplicationSSLDetails", applicationSSLDetails);
-
 		return applicationSSLDetails;
 	}
 
